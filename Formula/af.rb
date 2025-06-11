@@ -1,6 +1,6 @@
 class Af < Formula
-  desc "Command-line interface for AgentForce"
-  homepage "https://github.com/agentforcezone/agentforce-cli"
+  desc "The AgentForce Command-line interface for AgentForce Service and Tools"
+  homepage "https://github.com/agentforcezone/agentforce"
   version "0.0.6"
 
   if OS.mac? && Hardware::CPU.intel?
