@@ -1,15 +1,15 @@
 class Af < Formula
   desc "The AgentForce Command-line interface for AgentForce Service and Tools"
   homepage "https://github.com/agentforcezone/agentforce"
-  version "0.0.8"
+  version "0.0.9"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/agentforcezone/agentforce/releases/download/v0.0.8-af-cli/agentforce-cli-macos-x64.zip"
-    sha256 "95d593cbce3bfc52f29da6dde3a477c0f1f37f36449ec32a872fc6f39d12ac86"
+    url "https://github.com/agentforcezone/agentforce/releases/download/v0.0.9-af-cli/agentforce-cli-macos-x64.zip"
+    sha256 "d30fad8b4140952035af602156663962dfb6423fd811f1aa9d082dcb163ce57d"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/agentforcezone/agentforce/releases/download/v0.0.8-af-cli/agentforce-cli-macos-arm64.zip"
-    sha256 "7f013bbd0812796a29972796c40130aa67a6f9ff1fbe42520a991c1bd2731f17"
+    url "https://github.com/agentforcezone/agentforce/releases/download/v0.0.9-af-cli/agentforce-cli-macos-arm64.zip"
+    sha256 "c169b11f3ab376f1cbe4f401a11b0001cc991cba395caebfd02792f7b280f0b4"
   end
 
   def install
